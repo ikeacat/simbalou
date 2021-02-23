@@ -69,13 +69,14 @@ a {
 
 .dogpic {
     width: 250px;
-    height: 250px;
+    height: auto;
     margin-left:15px;
 }
 
 .dogpic img {
     width: 100%;
     height:auto;
+    border-radius: 5%;
 }
 
 .dogpic[first] {
