@@ -2,3 +2,61 @@
 The stylesheet for Simbalou.com
 All Rights Reserved :)
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap');
+
+[roboto] {
+    font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', 'Calibri', sans-serif;
+}
+
+[superbold] {
+    font-weight: 900;
+}
+
+[semibold] {
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.flex-centered {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.title {
+    font-size: 60px;
+}
+
+.prof-pic {
+    margin-top:30px;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    margin-bottom: 0;
+    padding-bottom: 0px;
+    position: relative;
+}
+
+.prof-pic-under {
+    font-size: 40px;
+    margin-top:10px;
+}
+
+.sec {
+    margin-left:50px;
+}
+
+/* images.html only */
+
+.placeholdimg {
+    background-color: rgb(185, 185, 185);
+    border: none;
+}
