@@ -38,19 +38,22 @@ window.onload = function() {
             // Input the profile pic.
             document.getElementById('dog-name-under').innerHTML = 'Nala';
             document.getElementsByClassName('placeholdimg')[0].src = 'img/profpics/nala.jpg';
-            doPhotos('nala')
+            doPhotos('nala');
+            document.title = 'Nala = Life';
         } else if(window.location.href.includes('?dog=major')) {
             console.log('majey');
             // Input the profile pic.
             document.getElementById('dog-name-under').innerHTML = 'Major';
             document.getElementsByClassName('placeholdimg')[0].src = 'img/profpics/major.jpg';
-            doPhotos('major')
+            doPhotos('major');
+            document.title = 'Major = Life'
         } else if(window.location.href.includes('?dog=simba')) {
             console.log('simbey')
             // Input the profile pic.
             document.getElementById('dog-name-under').innerHTML = 'Simba'
             document.getElementsByClassName('placeholdimg')[0].src = 'img/profpics/simba.jpg';
             doPhotos('simba');
+            document.title = 'Simba = Life'
         } else {
             console.error('Unrecognized dog.')
             unknownDog();
