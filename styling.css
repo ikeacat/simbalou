@@ -60,3 +60,24 @@ a {
     background-color: rgb(185, 185, 185);
     border: none;
 }
+
+.picsbox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.dogpic {
+    width: 250px;
+    height: 250px;
+    margin-left:15px;
+}
+
+.dogpic img {
+    width: 100%;
+    height:auto;
+}
+
+.dogpic[first] {
+    margin: initial;
+}
