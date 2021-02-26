@@ -82,3 +82,18 @@ a {
 .dogpic[first] {
     margin: initial;
 }
+
+.dogtile {
+    border-radius: 13px;
+    background: #ffffff;
+    transition: all 0.4s linear;
+    border: solid 1px lightgray;
+    border-radius: 20px;
+    padding-right: 30px;
+    padding-left:30px;
+}
+
+.dogtile:hover {
+    box-shadow:  7px 7px 19px #c7c7c7,
+             -7px -7px 19px #ffffff;
+}
