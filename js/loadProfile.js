@@ -4,7 +4,7 @@ const simbaImages = 11;
 const jaxImages = 4;
 
 function unknownDog() {
-    document.getElementById('profstamp').innerHTML = '<h4 style="color: red;" roboto>No recognizable dog was specified in the url. Click the header to go back to the homepage.</h4>'
+    document.getElementById('profstamp').innerHTML = '<h4 style="color: red;" roboto>No recognizable pet was specified in the url. Click the header to go back to the homepage.</h4>'
 }
 
 function doPhotos(dog) {
@@ -66,11 +66,11 @@ window.onload = function() {
             doPhotos('jax');
             document.title = 'Jax = Life'
         } else {
-            console.error('Unrecognized dog.')
+            console.error('Unrecognized pet.')
             unknownDog();
         }
     } else {
-        console.error('Specify a dog.')
+        console.error('Specify a pet.')
         unknownDog();
     }
 }
