@@ -58,7 +58,7 @@ window.onload = function() {
             document.getElementsByClassName('placeholdimg')[0].src = 'img/profpics/simba.jpg';
             doPhotos('simba');
             document.title = 'Simba = Life'
-        } else if(window.location.href.includes('?dog=simba')) {
+        } else if(window.location.href.includes('?dog=jax')) {
             console.log('jaxy poo')
             // Input the profile pic.
             document.getElementById('dog-name-under').innerHTML = 'Jax'
