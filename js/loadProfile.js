@@ -1,7 +1,7 @@
 const nalaImages = 11;
 const majorImages = 10;
 const simbaImages = 11;
-const jaxImages = 0;
+const jaxImages = 4;
 
 function unknownDog() {
     document.getElementById('profstamp').innerHTML = '<h4 style="color: red;" roboto>No recognizable dog was specified in the url. Click the header to go back to the homepage.</h4>'
