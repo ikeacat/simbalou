@@ -62,7 +62,7 @@ window.onload = function() {
             console.log('jaxy poo')
             // Input the profile pic.
             document.getElementById('dog-name-under').innerHTML = 'Jax'
-            document.getElementsByClassName('placeholdimg')[0].src = 'img/profpics/jax.jpg';
+            document.getElementsByClassName('placeholdimg')[0].src = 'img/profpics/jax.png';
             doPhotos('jax');
             document.title = 'Jax = Life'
         } else {
