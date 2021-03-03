@@ -1,9 +1,10 @@
 const nalaImages = 11;
 const majorImages = 10;
 const simbaImages = 11;
+const jaxImages = 4;
 
 function unknownDog() {
-    document.getElementById('profstamp').innerHTML = '<h4 style="color: red;" roboto>No recognizable dog was specified in the url. Click the header to go back to the homepage.</h4>'
+    document.getElementById('profstamp').innerHTML = '<h4 style="color: red;" roboto>No recognizable pet was specified in the url. Click the header to go back to the homepage.</h4>'
 }
 
 function doPhotos(dog) {
@@ -18,6 +19,9 @@ function doPhotos(dog) {
     } else if(dog == 'major') {
         imagePath = 'img/major/';
         amntOfImages = majorImages;
+    } else if(dog == 'jax') {
+        imagePath = 'img/jax/';
+        amntOfImages = jaxImages;
     }
     var i;
     for(i = 0; i <= amntOfImages - 1; i++) {
@@ -54,12 +58,19 @@ window.onload = function() {
             document.getElementsByClassName('placeholdimg')[0].src = 'img/profpics/simba.jpg';
             doPhotos('simba');
             document.title = 'Simba = Life'
+        } else if(window.location.href.includes('?dog=jax')) {
+            console.log('jaxy poo')
+            // Input the profile pic.
+            document.getElementById('dog-name-under').innerHTML = 'Jax'
+            document.getElementsByClassName('placeholdimg')[0].src = 'img/profpics/jax.png';
+            doPhotos('jax');
+            document.title = 'Jax = Life'
         } else {
-            console.error('Unrecognized dog.')
+            console.error('Unrecognized pet.')
             unknownDog();
         }
     } else {
-        console.error('Specify a dog.')
+        console.error('Specify a pet.')
         unknownDog();
     }
 }
