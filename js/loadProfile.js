@@ -35,7 +35,7 @@ function doPhotos(dog) {
     }
 }
 
-window.onload = function() {
+function imagePageLoader() {
     if(window.location.href.includes('?dog=')) {
         if(window.location.href.includes('?dog=nala')) {
             console.log('nala');

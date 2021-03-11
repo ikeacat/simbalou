@@ -16,7 +16,11 @@ All Rights Reserved :)
 [semibold] {
     font-weight: 700;
 }
-
+/*
+body {
+    transition: all 0.5s linear;
+}
+*/
 a {
     text-decoration: none;
     color: black;
@@ -54,6 +58,19 @@ a {
     margin-left:50px;
 }
 
+
+.foot-link {
+    color: blue;
+    text-decoration: underline;
+}
+
+.splitter-dot {
+    color: black;
+    font-size: 30px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
 /* images.html only */
 
 .placeholdimg {
@@ -86,7 +103,7 @@ a {
 .dogtile {
     border-radius: 13px;
     background: #ffffff;
-    transition: all 0.4s linear;
+    transition: box-shadow 0.4s linear;
     border: solid 1px lightgray;
     border-radius: 20px;
     padding-right: 30px;
