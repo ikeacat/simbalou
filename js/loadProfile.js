@@ -1,4 +1,4 @@
-const nalaImages = 11;
+const nalaImages = 10;
 const majorImages = 10;
 const simbaImages = 11;
 const jaxImages = 4;
