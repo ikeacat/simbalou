@@ -11,7 +11,6 @@ body {
 }
 
 .dogtile {
-    
     background-color: #1d1f21 !important;
     color: white !important;
     border: black;
@@ -28,4 +27,12 @@ body {
 
 .foot-link {
     color: white !important;
+}
+
+.dogpic img {
+    background-color: #1d1f21;
+}
+
+.title {
+    color: white;
 }
