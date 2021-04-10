@@ -21,6 +21,9 @@ body {
     transition: all 0.5s linear;
 }
 */
+body {
+    background-color: whitesmoke;
+}
 a {
     text-decoration: none;
     color: black;
