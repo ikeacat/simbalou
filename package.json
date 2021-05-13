@@ -1,0 +1,19 @@
+{
+  "name": "simbalou",
+  "version": "1.0.0",
+  "description": "Our pets are life.",
+  "main": "server.js",
+  "scripts": {
+    "test": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ikeacat/simbalou.git"
+  },
+  "author": "ikeacat (Mason Frykman)",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/ikeacat/simbalou/issues"
+  },
+  "homepage": "https://github.com/ikeacat/simbalou#readme"
+}
