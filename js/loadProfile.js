@@ -1,6 +1,6 @@
 const nalaImages = 10;
 const majorImages = 10;
-const simbaImages = 11;
+const simbaImages = 12;
 const jaxImages = 4;
 
 function unknownDog() {
