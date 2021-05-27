@@ -32,7 +32,7 @@ window.onload = function() {
     // Konami Code stuff.
 
     if(document.cookie.match('francais=true')) {
-        document.getElementsByClassName('title')[0].innerHTML = "Nos animaux domestique sont notre vie.";
+        document.getElementsByClassName('title')[0].innerHTML = "Nos animaux domestiques sont notre vie.";
     } else {
         var konamiPattern = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', 'ArrowLeft', 'ArrowRight','ArrowLeft','ArrowRight','b','a'];
         var knCurrent = 0;
