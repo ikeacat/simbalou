@@ -50,7 +50,7 @@ window.onload = function() {
                 theDate.setTime(theDate.getTime() + (1*24*60*60*1000));
                 var newexp = "expires=" + theDate.toUTCString();
                 document.cookie = 'francais=true;' + newexp + ";SameSite=Strict;path=/"; // make sure it expires tomorrow.
-                document.getElementsByClassName('title')[0].innerHTML = "Nos animaux domestique sont notre vie.";
+                document.getElementsByClassName('title')[0].innerHTML = "Nos animaux domestiques sont notre vie.";
             }
 
             console.log('Konami Status: ' + knCurrent.toString());
