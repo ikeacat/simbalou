@@ -1,0 +1,118 @@
+/*
+The stylesheet for Simbalou.com
+All Rights Reserved :)
+*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@200;300;400;700;900&display=swap");
+[roboto] {
+  font-family: "Roboto", "Helvetica Neue", "Helvetica", "Arial", "Calibri", sans-serif;
+}
+
+[superbold] {
+  font-weight: 900;
+}
+
+[semibold] {
+  font-weight: 700;
+}
+
+/*
+body {
+    transition: all 0.5s linear;
+}
+*/
+body {
+  background-color: whitesmoke;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.flex-centered {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.title {
+  font-size: 60px;
+}
+
+.prof-pic {
+  margin-top: 30px;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  margin-bottom: 0;
+  padding-bottom: 0px;
+  position: relative;
+}
+
+.prof-pic-under {
+  font-size: 40px;
+  margin-top: 10px;
+}
+
+.sec {
+  margin-left: 50px;
+}
+
+.foot-link {
+  color: blue;
+  font-weight: 300;
+}
+
+.splitter-dot {
+  color: black;
+  font-size: 30px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+/* images.html only */
+.placeholdimg {
+  background-color: #b9b9b9;
+  border: none;
+}
+
+.picsbox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.dogpic {
+  width: 250px;
+  height: auto;
+  margin-left: 15px;
+}
+
+.dogpic img {
+  width: 100%;
+  height: auto;
+  border-radius: 5%;
+}
+
+.dogpic[first] {
+  margin: initial;
+}
+
+.dogtile {
+  border-radius: 13px;
+  background: #ffffff;
+  transition: box-shadow 0.4s linear;
+  border: solid 1px lightgray;
+  border-radius: 20px;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+.dogtile:hover {
+  box-shadow: 7px 7px 19px #c7c7c7, -7px -7px 19px #ffffff;
+}
+
+/*# sourceMappingURL=default.css.map */
