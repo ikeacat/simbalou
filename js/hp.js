@@ -1,6 +1,6 @@
 function switchMode() {
     var currMode = localStorage.getItem('colorMode');
-    if(currMode == 'light') {
+    if(currMode == 'light' || currMode == null) {
         localStorage.setItem('colorMode', 'dark');
         document.head.innerHTML += ('<link href="sass/dist/darkmode.css" rel="stylesheet" />');
         document.getElementById('modelink').innerHTML = 'Light Mode';
@@ -53,7 +53,7 @@ window.onload = function() {
                 document.getElementsByClassName('title')[0].innerHTML = "Nos animaux domestiques sont notre vie.";
             }
 
-            console.log('Konami Status: ' + knCurrent.toString());
+            //console.log('Konami Status: ' + knCurrent.toString());
         }
 
         document.addEventListener('keydown', kcHandler, false);
