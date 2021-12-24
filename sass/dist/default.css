@@ -115,4 +115,28 @@ a {
   box-shadow: 7px 7px 19px #c7c7c7, -7px -7px 19px #ffffff;
 }
 
+.homepage-dogrow {
+  display: flex;
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 995px) {
+  .homepage-dogrow {
+    flex-direction: column !important;
+    width: 100%;
+  }
+
+  .dogtile {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+}
+@media only screen and (max-width: 554px) {
+  .title {
+    text-align: left;
+    word-wrap: normal;
+  }
+}
+
 /*# sourceMappingURL=default.css.map */
