@@ -1,6 +1,9 @@
 /*
 Dark Mode stylesheet for simbalou.com
 2021 All Rights Reserved.
+
+This file should not be used.
+Switched to using prefers-color-scheme in default.scss / default.css
 */
 
 @import 'styling.css';
@@ -35,4 +38,20 @@ body {
 
 .title {
     color: white;
+}
+
+@media only screen and (max-width: 995px) {
+
+    .dogtile {
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        transition: background-color 0.4s linear !important;
+    }
+
+    .dogtile:hover {
+        box-shadow: none !important;
+        background-color: whitesmoke !important;
+    }
+
 }
