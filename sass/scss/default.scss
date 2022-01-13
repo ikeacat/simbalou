@@ -21,9 +21,7 @@ body {
     transition: all 0.5s linear;
 }
 */
-body {
-    background-color: whitesmoke;
-}
+
 a {
     text-decoration: none;
     color: black;
@@ -104,20 +102,7 @@ a {
     margin: initial;
 }
 
-.dogtile {
-    border-radius: 13px;
-    background: #ffffff;
-    transition: box-shadow 0.4s linear;
-    border: solid 1px lightgray;
-    border-radius: 20px;
-    padding-right: 30px;
-    padding-left:30px;
-}
 
-.dogtile:hover {
-    box-shadow:  7px 7px 19px #c7c7c7,
-             -7px -7px 19px #ffffff;
-}
 
 .homepage-dogrow {
     display: flex;
@@ -148,5 +133,66 @@ a {
     .title {
         text-align: left;
         word-wrap: normal;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    body {
+        background-color: whitesmoke;
+    }
+
+    .dogtile {
+        border-radius: 13px;
+        background: #ffffff;
+        transition: box-shadow 0.4s linear;
+        border: solid 1px lightgray;
+        border-radius: 20px;
+        padding-right: 30px;
+        padding-left:30px;
+    }
+    
+    .dogtile:hover {
+        box-shadow:  7px 7px 19px #c7c7c7,
+                 -7px -7px 19px #ffffff;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #232529 !important;
+        color: white !important;
+    }
+    
+    .dogtile {
+        background-color: #1d1f21 !important;
+        color: white !important;
+        border: black;
+
+        border-radius: 13px;
+        transition: box-shadow 0.4s linear;
+        border-radius: 20px;
+        padding-right: 30px;
+        padding-left:30px;
+    }
+    
+    .dogtile:hover {
+        box-shadow:  10px 10px 20px #18191b,
+                 -10px -10px 20px #222527 !important;
+    }
+    
+    .splitter-dot {
+        color: white !important;
+    }
+    
+    .foot-link {
+        color: white !important;
+    }
+    
+    .dogpic img {
+        background-color: #1d1f21;
+    }
+    
+    .title {
+        color: white;
     }
 }

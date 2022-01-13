@@ -1,4 +1,4 @@
-function switchMode() {
+/*function switchMode() {
     var currMode = localStorage.getItem('colorMode');
     if(currMode == 'light' || currMode == null) {
         localStorage.setItem('colorMode', 'dark');
@@ -10,11 +10,13 @@ function switchMode() {
         document.head.removeChild(getTag);
         document.getElementById('modelink').innerHTML = 'Dark Mode';
     }
-}
+}*/
 
 window.onload = function() {
-    var currMode = localStorage.getItem('colorMode');
+    /*
+    var currMode = localStorage.getItem('colorMode');*/
     var page = document.querySelector('meta[name="sl_page"]').content;
+    /*
     if(currMode == 'dark') {
         document.head.innerHTML += ('<link href="sass/dist/darkmode.css" rel="stylesheet" />');
         if(page == 'home') {
@@ -25,6 +27,8 @@ window.onload = function() {
             document.getElementById('modelink').innerHTML = 'Dark Mode';
         }
     }
+    */
+    
     if(page == 'images') {
         imagePageLoader();
     }
