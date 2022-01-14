@@ -1,0 +1,38 @@
+[
+    {
+        "matches": "Nala",
+
+        "searchPathsWithTrailing": ["img/nala/"],
+        "searchPathsExtensions": ["jpg"],
+        "searchPathsExcludeFiles": [],
+
+        "directPaths": []
+    },
+    {
+        "matches": "Simba",
+
+        "searchPathsWithTrailing": ["img/simba/"],
+        "searchPathsExtensions": ["jpg"],
+        "searchPathsExcludeFiles": [],
+
+        "directPaths": []
+    },
+    {
+        "matches": "Major",
+
+        "searchPathsWithTrailing": ["img/major/"],
+        "searchPathsExtensions": ["jpg"],
+        "searchPathsExcludeFiles": [],
+
+        "directPaths": []
+    },
+    {
+        "matches": "Jax",
+
+        "searchPathsWithTrailing": ["img/jax/"],
+        "searchPathsExtensions": ["jpg"],
+        "searchPathsExcludeFiles": [],
+
+        "directPaths": []
+    }
+]

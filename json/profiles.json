@@ -1,0 +1,19 @@
+[
+    {
+        "aniName": "Nala",
+        "profilePictureExact": "img/profpics/nala.jpg"
+    },
+    {
+        "aniName": "Simba",
+        "profilePictureExact": "img/profpics/simba.jpg"
+    },
+    {
+        "aniName": "Major",
+        "profilePictureExact": "img/profpics/major.jpg"
+    },
+    {
+        "aniName": "Jax",
+        "profilePictureExact": "img/profpics/jax.png"
+    }
+    
+]
